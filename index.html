@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      // Suppress Vite HMR WebSocket connection errors per environment constraints
+      (function() {
+        var origConsoleError = console.error;
+        console.error = function() {
+          var args = Array.prototype.slice.call(arguments);
+          var text = args.map(function(a) { return String(a && a.stack ? a.stack : a); }).join(' ');
+          if (text.includes('[vite]') || text.includes('WebSocket') || text.includes('@vite/client')) {
+            return;
+          }
+          return origConsoleError.apply(console, arguments);
+        };
+        window.addEventListener('error', function(e) {
+          if (e && (e.filename && e.filename.indexOf('@vite/client') !== -1 || (e.message && (e.message.indexOf('WebSocket') !== -1 || e.message.indexOf('vite') !== -1)))) {
+            e.preventDefault();
+            e.stopImmediatePropagation();
+          }
+        }, true);
+        window.addEventListener('unhandledrejection', function(e) {
+          var reason = String(e && (e.reason && e.reason.stack ? e.reason.stack : e.reason) || '');
+          if (reason.indexOf('@vite/client') !== -1 || reason.indexOf('WebSocket') !== -1) {
+            e.preventDefault();
+            e.stopImmediatePropagation();
+          }
+        }, true);
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Weekly Radar — Inteligencia Tecnológica en IA</title>
+    <meta name="description" content="Sistema automatizado de inteligencia tecnológica y radar semanal de novedades en Inteligencia Artificial con Gemini y Google Search Grounding." />
+    <meta property="og:title" content="AI Weekly Radar — Inteligencia Tecnológica en IA" />
+    <meta property="og:description" content="Sistema automatizado de inteligencia tecnológica y radar semanal de novedades en Inteligencia Artificial con Gemini y Google Search Grounding." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="AI Radar" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

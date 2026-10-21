@@ -1,0 +1,86 @@
+[
+  {
+    "id": "sig-1792605759309-fdxbv",
+    "title": "Claude Agent Skills & Claude Code: Ecosistema unificado de ejecución local",
+    "entity": "Anthropic Official Documentation & Engineering Changelog",
+    "firstSeenPeriod": "14/10/2026 - 21/10/2026",
+    "reportId": "radar-rep-2026-10-w3"
+  },
+  {
+    "id": "sig-1792605759309-9lhw9",
+    "title": "OpenAI Codex & ChatGPT Work: Nuevos conectores y arquitectura de Skills",
+    "entity": "OpenAI Newsroom & Developer Changelog",
+    "firstSeenPeriod": "14/10/2026 - 21/10/2026",
+    "reportId": "radar-rep-2026-10-w3"
+  },
+  {
+    "id": "sig-1792605759309-k3sip",
+    "title": "Google Gemini 3.8 & Antigravity: Agentes interactivos con Grounding Avanzado",
+    "entity": "Google AI for Developers Announcements",
+    "firstSeenPeriod": "14/10/2026 - 21/10/2026",
+    "reportId": "radar-rep-2026-10-w3"
+  },
+  {
+    "id": "sig-1792605759309-psc4h",
+    "title": "Vibe Coding de segunda generación: Cursor y Windsurf adoptan ejecución multi-archivo nativa",
+    "entity": "Cursor Engineering Blog",
+    "firstSeenPeriod": "14/10/2026 - 21/10/2026",
+    "reportId": "radar-rep-2026-10-w3"
+  },
+  {
+    "id": "sig-1792605759309-wgs37",
+    "title": "IA en Educación: Sistemas de tutoría socrática adaptativa validados empíricamente",
+    "entity": "arXiv Educational AI Research & Benchmarks",
+    "firstSeenPeriod": "14/10/2026 - 21/10/2026",
+    "reportId": "radar-rep-2026-10-w3"
+  },
+  {
+    "id": "sig-m-1792605759309-yuly8",
+    "title": "Gemini 3.8 Flash",
+    "entity": "Google / DeepMind",
+    "firstSeenPeriod": "14/10/2026 - 21/10/2026",
+    "reportId": "radar-rep-2026-10-w3"
+  },
+  {
+    "id": "sig-m-1792605759309-pdl8q",
+    "title": "Claude 3.7 Sonnet (Hybrid Reasoning)",
+    "entity": "Anthropic",
+    "firstSeenPeriod": "14/10/2026 - 21/10/2026",
+    "reportId": "radar-rep-2026-10-w3"
+  },
+  {
+    "id": "sig-m-1792605759309-770nw",
+    "title": "Qwen 2.5 Coder 32B Instruct",
+    "entity": "Alibaba Cloud",
+    "firstSeenPeriod": "14/10/2026 - 21/10/2026",
+    "reportId": "radar-rep-2026-10-w3"
+  },
+  {
+    "id": "sig-m-1792605759309-w7blo",
+    "title": "DeepSeek-V3 MoE",
+    "entity": "DeepSeek",
+    "firstSeenPeriod": "14/10/2026 - 21/10/2026",
+    "reportId": "radar-rep-2026-10-w3"
+  },
+  {
+    "id": "sig-sk-1792605759309-evdtc",
+    "title": "claude-skill-postgres-mcp",
+    "entity": "Claude",
+    "firstSeenPeriod": "14/10/2026 - 21/10/2026",
+    "reportId": "radar-rep-2026-10-w3"
+  },
+  {
+    "id": "sig-sk-1792605759309-pk6aw",
+    "title": "codex-skill-test-runner",
+    "entity": "GPT/Codex",
+    "firstSeenPeriod": "14/10/2026 - 21/10/2026",
+    "reportId": "radar-rep-2026-10-w3"
+  },
+  {
+    "id": "sig-sk-1792605759309-ql7xg",
+    "title": "mcp-github-enterprise-connector",
+    "entity": "MCP",
+    "firstSeenPeriod": "14/10/2026 - 21/10/2026",
+    "reportId": "radar-rep-2026-10-w3"
+  }
+]

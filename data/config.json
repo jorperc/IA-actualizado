@@ -1,0 +1,45 @@
+{
+  "recipientEmail": "jorperc@gmail.com",
+  "scheduleDay": "Monday",
+  "scheduleHour": 8,
+  "scheduleMinute": 0,
+  "timezone": "Europe/Madrid",
+  "researchDepth": "NORMAL",
+  "minImportance": 3,
+  "maxNewsCount": 20,
+  "modelName": "gemini-3.8-flash",
+  "activeCategories": {
+    "models": true,
+    "openai": true,
+    "codex": true,
+    "claude": true,
+    "claudeSkills": true,
+    "gptSkills": true,
+    "gemini": true,
+    "agents": true,
+    "mcp": true,
+    "vibeCoding": true,
+    "education": true,
+    "research": true,
+    "tools": true
+  },
+  "schedulerSecret": "ai-radar-secret-key-2026",
+  "smtpConfig": {
+    "enabled": false,
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "secure": false,
+    "user": "",
+    "pass": "",
+    "from": ""
+  },
+  "lastRunAt": "2026-10-21T08:00:38.000Z",
+  "lastDurationSeconds": 38,
+  "lastSourcesCount": 42,
+  "lastStatus": "ERROR",
+  "lastError": {
+    "date": "2026-10-21T18:37:57.735Z",
+    "phase": "INVESTIGACION",
+    "message": "Límite de peticiones de la API de Gemini alcanzado momentáneamente. La aplicación se recupera automáticamente reintentando en breves instantes."
+  }
+}
